@@ -4,7 +4,7 @@ let intentos = 1;
 let numeroMaximo =10;
 
 
-
+condicionesIniciales();
 console.log(numeroSecreto)
 function asignarTextoAElemento(elemento,texto){
     let elementoHTML = document.querySelector(elemento);
