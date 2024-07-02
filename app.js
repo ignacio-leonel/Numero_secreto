@@ -68,12 +68,19 @@ function condicionesIniciales(){
     
 }
 
-
+function perdedor(){
+    if (intentos =4 ){
+            asignarTextoAElemento('p','Llegaste al número máximo de intentos. Juega otra vez!');
+    condicionesIniciales()
+}
+}
+    
 function reiniciarJuego(){
     limpiarCaja();   
     condicionesIniciales();
     
-         
+
+    
 }
 /*
 function ingresarNombre(){
